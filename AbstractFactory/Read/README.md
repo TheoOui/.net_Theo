@@ -30,4 +30,7 @@ Le but est de cacher la création d'objet.
 Le but de ce pattern est de permettre de fabriquer des objets regoupes en "famille" sans avoir a connaitre les classes cilbles destinee a  la fabrication de ces objets.
 
 ![Deuxieme Schema](image1.png)
-                                                                                         
+
+### Le Pattern Builder
+
+Ce pattern permet d'abstraire la construction d'objets complexes de leur implementation de sorte qu'un client puisse creer des objets complexes sans avoir a se preocuper des differences d'implementation.
