@@ -1,0 +1,15 @@
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\bin\Debug\net7.0\consoleApp.exe
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\bin\Debug\net7.0\consoleApp.deps.json
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\bin\Debug\net7.0\consoleApp.runtimeconfig.json
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\bin\Debug\net7.0\consoleApp.dll
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\bin\Debug\net7.0\consoleApp.pdb
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.csproj.AssemblyReference.cache
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.AssemblyInfoInputs.cache
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.AssemblyInfo.cs
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.csproj.CoreCompileInputs.cache
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.dll
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\refint\consoleApp.dll
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.pdb
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\consoleApp.genruntimeconfig.cache
+C:\Users\tazouz\Documents\cours_dotnet\consoleApp\obj\Debug\net7.0\ref\consoleApp.dll
