@@ -1,0 +1,15 @@
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\bin\Debug\net7.0\PatternAdapter.exe
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\bin\Debug\net7.0\PatternAdapter.deps.json
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\bin\Debug\net7.0\PatternAdapter.runtimeconfig.json
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\bin\Debug\net7.0\PatternAdapter.dll
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\bin\Debug\net7.0\PatternAdapter.pdb
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.csproj.AssemblyReference.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.AssemblyInfoInputs.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.AssemblyInfo.cs
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.csproj.CoreCompileInputs.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.dll
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\refint\PatternAdapter.dll
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.pdb
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\PatternAdapter.genruntimeconfig.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\PatternAdapter\obj\Debug\net7.0\ref\PatternAdapter.dll

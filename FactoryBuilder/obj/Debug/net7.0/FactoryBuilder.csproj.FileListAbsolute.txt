@@ -1,0 +1,5 @@
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\FactoryBuilder\obj\Debug\net7.0\FactoryBuilder.csproj.AssemblyReference.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\FactoryBuilder\obj\Debug\net7.0\FactoryBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\FactoryBuilder\obj\Debug\net7.0\FactoryBuilder.AssemblyInfoInputs.cache
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\FactoryBuilder\obj\Debug\net7.0\FactoryBuilder.AssemblyInfo.cs
+C:\Users\tazouz\Documents\cours_dotnet\.net_Theo\FactoryBuilder\obj\Debug\net7.0\FactoryBuilder.csproj.CoreCompileInputs.cache
