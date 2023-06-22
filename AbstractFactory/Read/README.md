@@ -76,3 +76,23 @@ utilisation :
 Ici, on cherche à ajouter des fonctionnalites supp a un objet en prenant soin de ne pas modifier son interface. Toutes modifications apportees par ce pattern seront transparentes vis-a-vis des clients
 
 Ce pattern constitue une alternative a la creation de sous classe pour enrichir les fonctionnalites d'un objet.
+
+![Pattern Decorator](image-6.png)
+
+Le pattern Decorator peut etre utilise dans les domaines suivants :
+- notre application souhaite ajouter dynamiquement des fonctionnalites a un objet sans modifier son interface autrement dit sans avoir a modifier les clients de cet objet
+- une application doit gerer des fonctionnalites qui peuvent etre retirees dynamiquement.
+- l'utilisation de l'heritage n'est pas une option car la hierarchie d'objets est deja trop complexe. 
+
+### Le pattern Bridge
+![Pattern Bridge](image-7.png)
+
+![Bridgev2](image-8.png)
+
+
+### Le pattern Composite
+
+![Pattern Composite](image-9.png)
+
+
+
