@@ -92,7 +92,33 @@ Le pattern Decorator peut etre utilise dans les domaines suivants :
 
 ### Le pattern Composite
 
+Au sein de notre système de vente de véhicules, nous voulons représenter les sociétés clientes,
+notamment pour connaître le nombre de véhicules dont elles disposent et leur proposer des offres de
+maintenance de leur parc.
+Les sociétés qui possèdent des filiales demandent des offres de maintenance qui prennent en compte le
+parc de véhicules de leurs filiales.
+Une solution immédiate consiste à traiter différemment les sociétés sans filiale et celles possédant des
+filiales. Cependant cette différence de traitement entre les deux types de société rend l’application plus
+complexe et dépendante de la composition interne des sociétés clientes.
+Le pattern résout ce problème en unifiant l’interface des deux types de sociétés et en
+utilisant la composition récursive. Cette composition récursive est nécessaire car une société peut
+posséder des filiales qui possèdent elles-mêmes d’autres filiales.
+
 ![Pattern Composite](image-9.png)
+
+--------------------
+
+### Les patterns de comportement 
+
+![Pattern Comportement](image-10.png)
+
+TODO : Ajoutere la definition des 
+
+![Alt text](image-11.png)
+
+![Alt text](image-12.png)
+
+
 
 
 
