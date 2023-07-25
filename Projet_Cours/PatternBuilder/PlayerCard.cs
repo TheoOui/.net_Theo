@@ -4,7 +4,7 @@ public class PlayerCard
 {
     static void Main(string[] args)
     {
-        FootballTeam team = new FootballTeam();
+        FootballTeam team = FootballTeam.GetInstance();
 
         // Utilisation du FootballPlayerBuilder pour créer le joueur Messi
         FootballPlayerBuilder builder = new FootballPlayerBuilder();

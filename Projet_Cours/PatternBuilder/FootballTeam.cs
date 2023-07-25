@@ -3,7 +3,21 @@ using System.Collections.Generic;
 
 public class FootballTeam
 {
+    private static FootballTeam instance;
     private List<FootballPlayer> players = new List<FootballPlayer>();
+
+    // Constructeur privé pour empêcher l'instanciation directe depuis l'extérieur
+    private FootballTeam() { }
+
+    // Méthode pour obtenir l'instance unique de FootballTeam (Singleton)
+    public static FootballTeam GetInstance()
+    {
+        if (instance == null)
+        {
+            instance = new FootballTeam();
+        }
+        return instance;
+    }
 
     public void AddPlayer(FootballPlayer player)
     {
