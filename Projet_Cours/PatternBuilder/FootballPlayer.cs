@@ -15,4 +15,10 @@ public class FootballPlayer
     {
         return strategy.CalculateOverallRating(this);
     }
+
+     public object Clone()
+    {
+        // Utilisation d'un clonage superficiel (MemberwiseClone) car les propriétés sont de types primitifs
+        return this.MemberwiseClone();
+    }
 }

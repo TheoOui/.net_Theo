@@ -154,34 +154,22 @@ team.AddPlayer(giroud);
         FootballPlayer chosenPlayer = team.GetPlayerByName(chosenPlayerName);
 
         // Vérification si le joueur existe dans l'équipe
-        if (chosenPlayer != null){
-         Console.Write($"Combien de buts {chosenPlayer.Name} a-t-il marqué cette saison ? ");
-            int goalsScored = int.Parse(Console.ReadLine());
-            // Mettre à jour le nombre de buts marqués pour le joueur sélectionné
-            chosenPlayer.GoalsScored = goalsScored;
+       if (chosenPlayer != null)
+{
+    Console.Write($"Combien de buts {chosenPlayer.Name} a-t-il marqué cette saison ? ");
+    int goalsScored = int.Parse(Console.ReadLine());
+    // Mettre à jour le nombre de buts marqués pour le joueur sélectionné
+    chosenPlayer.GoalsScored = goalsScored;
 
-                
-            Console.WriteLine($"\nStatistiques du joueur {chosenPlayer.Name} :");
-            Console.WriteLine($"Vitesse : {chosenPlayer.Speed}");
-            Console.WriteLine($"Tir : {chosenPlayer.Shooting}");
-            Console.WriteLine($"Passes : {chosenPlayer.Passing}");
-            Console.WriteLine($"Dribbles : {chosenPlayer.Dribbling}");
-            Console.WriteLine($"Physiques : {chosenPlayer.Physicals}");
-            Console.WriteLine($"Nombre de buts marqués : {chosenPlayer.GoalsScored}");
-            // Modification : Utilisation de la stratégie pour calculer la note finale
-            INoteCalculationStrategy strategy = new GlobalRatingStrategy();
-            double overallRating = chosenPlayer.CalculateOverallRating(strategy);
-            Console.WriteLine($"Note finale : {overallRating}");
-
-             INoteCalculationStrategy dribbleStrategy = new DribbleRatingStrategy();
-            chosenPlayer.CalculateOverallRating(dribbleStrategy);
-        }   
-
-        else
-        {
-            Console.WriteLine("Joueur non trouvé dans l'équipe.");
-        }
-
-        Console.ReadLine();
-    }
+    // Utilisation de l'adaptateur pour afficher les statistiques du joueur
+    INoteDisplayAdapter adapter = new PlayerStatsAdapter();
+    adapter.DisplayPlayerStats(chosenPlayer);
 }
+else
+{
+    Console.WriteLine("Joueur non trouvé dans l'équipe.");
+}
+
+Console.ReadLine();
+    }
+    }
