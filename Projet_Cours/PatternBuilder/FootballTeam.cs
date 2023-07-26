@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 public class FootballTeam
 {
-    private static FootballTeam instance;
+
+    private static FootballTeam instance ;
     private List<FootballPlayer> players = new List<FootballPlayer>();
 
-    // Constructeur privé pour empêcher l'instanciation directe depuis l'extérieur
-    private FootballTeam() { }
+    private FootballTeam(){}
 
-    // Méthode pour obtenir l'instance unique de FootballTeam (Singleton)
+     // Méthode pour obtenir l'instance unique de FootballTeam (Singleton)
     public static FootballTeam GetInstance()
     {
         if (instance == null)
@@ -24,7 +24,7 @@ public class FootballTeam
         players.Add(player);
     }
 
-    public void DisplayPlayersStats()
+    public void DisplayPlayersStats(INoteCalculationStrategy strategy)
     {
         foreach (var player in players)
         {
@@ -35,7 +35,8 @@ public class FootballTeam
             Console.WriteLine($"Dribbles : {player.Dribbling}");
             Console.WriteLine($"Physiques : {player.Physicals}");
             Console.WriteLine($"Nombre de buts marqués : {player.GoalsScored}");
-            Console.WriteLine($"Note finale : {player.CalculateOverallRating()}");
+            double overallRating = player.CalculateOverallRating(strategy);
+            Console.WriteLine($"Note finale : {overallRating}");
             Console.WriteLine();
         }
     }

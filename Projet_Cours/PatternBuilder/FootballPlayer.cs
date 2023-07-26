@@ -1,4 +1,4 @@
-using System ;
+using System;
 
 public class FootballPlayer
 {
@@ -11,18 +11,8 @@ public class FootballPlayer
     public int Physicals { get; set; }
     public int GoalsScored { get; set; }
 
-    // Méthode pour calculer la note finale
-    public double CalculateOverallRating()
+     public double CalculateOverallRating(INoteCalculationStrategy strategy)
     {
-        // Calcul de la moyenne des 5 stats
-        double averageStats = (Speed + Shooting + Passing + Dribbling + Physicals) / 5.0;
-
-        // Ajout du bonus pour les buts marqués
-        int goalBonus = GoalsScored / 5;
-
-        // Calcul de la note finale avec le bonus
-        double overallRating = averageStats + goalBonus;
-
-        return overallRating;
+        return strategy.CalculateOverallRating(this);
     }
 }

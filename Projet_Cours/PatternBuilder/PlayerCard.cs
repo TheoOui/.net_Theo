@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class PlayerCard
 {
@@ -158,7 +159,8 @@ team.AddPlayer(giroud);
             int goalsScored = int.Parse(Console.ReadLine());
             // Mettre à jour le nombre de buts marqués pour le joueur sélectionné
             chosenPlayer.GoalsScored = goalsScored;
-        
+
+                
             Console.WriteLine($"\nStatistiques du joueur {chosenPlayer.Name} :");
             Console.WriteLine($"Vitesse : {chosenPlayer.Speed}");
             Console.WriteLine($"Tir : {chosenPlayer.Shooting}");
@@ -166,8 +168,14 @@ team.AddPlayer(giroud);
             Console.WriteLine($"Dribbles : {chosenPlayer.Dribbling}");
             Console.WriteLine($"Physiques : {chosenPlayer.Physicals}");
             Console.WriteLine($"Nombre de buts marqués : {chosenPlayer.GoalsScored}");
-            Console.WriteLine($"Note finale : {chosenPlayer.CalculateOverallRating()}");
-        }
+            // Modification : Utilisation de la stratégie pour calculer la note finale
+            INoteCalculationStrategy strategy = new GlobalRatingStrategy();
+            double overallRating = chosenPlayer.CalculateOverallRating(strategy);
+            Console.WriteLine($"Note finale : {overallRating}");
+
+             INoteCalculationStrategy dribbleStrategy = new DribbleRatingStrategy();
+            chosenPlayer.CalculateOverallRating(dribbleStrategy);
+        }   
 
         else
         {
