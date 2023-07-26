@@ -1,4 +1,4 @@
-# Projet_Pattern
+# Projet_Pattern Azouz Théo
 
 ## Pattern de construction
 La classe FootballPlayerBuilder utilise le Pattern Builder car il permet de construire un objet Football Player étape par étape.
